@@ -1,15 +1,25 @@
-/* Program Name: PROGRAM NAME HERE
- * Student Name: YOUR NAME HERE
- * Net ID: NETID HERE
- * Student ID: STUDENT ID HERE (000-12-3456)
- * Program Description: BRIEF, 1-2 SENTENCE DESCRIPTION HERE */
-
+/* Program Name: intro
+ * Student Name: Eli Fisk
+ * Net ID: efisk
+ * Student ID: 000664328
+ * Program Description: Learning the basics of unix and c++ */
 //! Remember: your comments
 //! Remember: your formatting and indentation
 //  auto-format in vim: gg=G in normal mode, in vscode: alt+shift+f
 
-#include <iostream>
+#include<iostream>
+#include <string>
 
 using namespace std;
 
-int main() { return 0; }
+int main() {
+	string name;
+
+	// Take user input
+	cout << "What is your name? ";
+	cin >> name;
+
+	// Print user's name
+	cout << "Hello, " << name << "!" << endl;
+	return 0;
+}
